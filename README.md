@@ -3,7 +3,6 @@
 An automated, single-click `.bat` script to set up a complete Apache Spark and PySpark environment on Windows machines.
 
 ## 🚀 Features
-* Automatically requests Administrator privileges.
 * Downloads and extracts **Java JDK 17**.
 * Downloads and extracts the latest **Apache Spark** version dynamically from PyPI.
 * Downloads **Hadoop Winutils** (`winutils.exe` and `hadoop.dll`).
