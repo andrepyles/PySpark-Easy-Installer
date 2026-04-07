@@ -30,7 +30,8 @@ Write-Host "Latest Spark version detected: $sparkVersion" -ForegroundColor Green
 $sparkUrl = "https://archive.apache.org/dist/spark/spark-$sparkVersion/spark-$sparkVersion-bin-hadoop3.tgz"
 $winutilsUrl = "https://raw.githubusercontent.com/kontext-tech/winutils/refs/heads/master/hadoop-3.4.0-win10-x64/bin/winutils.exe"
 $hadoopDllUrl = "https://raw.githubusercontent.com/kontext-tech/winutils/refs/heads/master/hadoop-3.4.0-win10-x64/bin/hadoop.dll"
-$javaUrl = "https://api.adoptium.net/v3/binary/latest/17/ga/windows/x64/jdk/hotspot/normal/eclipse"
+# UPDATED: Microsoft OpenJDK 17 Windows x64 zip permalink
+$javaUrl = "https://aka.ms/download-jdk/microsoft-jdk-17-windows-x64.zip" 
 
 # Destination directories
 $baseDir = "C:\"
